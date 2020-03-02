@@ -8,7 +8,7 @@ int main(void){
 		int i, j, k;
 		struct timespec start, stop; 
 		double time;
-		int n = 2048; // matrix size is n*n
+		int n = 4096; // matrix size is n*n
 		
 		double **A = (double**) malloc (sizeof(double*)*n);
 		double **B = (double**) malloc (sizeof(double*)*n);
