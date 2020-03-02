@@ -30,7 +30,7 @@ int main(void){
 		if( clock_gettime(CLOCK_REALTIME, &start) == -1) { perror("clock gettime");}
 		
 	// openMP
-    omp_set_num_threads(1);
+    omp_set_num_threads(4);
     #pragma omp parallel for
 			// Your code goes here //
 			// Matrix C = Matrix A * Matrix B //	
